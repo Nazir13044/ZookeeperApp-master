@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="jumbotron">
+    <h2>Virtual Tech Academy</h2>
+    <h2>Zoo Management System</h2>
+    <p>Zoo management is a pet project to understand the entity framework code first and asp.net identity</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2><button class="btn btn-default">@Html.ActionLink("Manage animal","Index","Animals")</button></h2>
+    </div>
+    <div class="col-md-4">
+        <h2><button class="btn btn-default">@Html.ActionLink("Manage food", "Index", "Foods")</button></h2>
+    </div>
+    <div class="col-md-4">
+        <h2><button class="btn btn-default">@Html.ActionLink("Manage animal food", "Index", "AnimalFoods")</button></h2>
+    </div>
+</div>
+
+
+
